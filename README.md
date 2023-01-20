@@ -10,3 +10,14 @@ An applicacion that generates randome short URLS based on longer ones.
 - Redis - Database
 - Docker - Containers
 - Docker compose - Orchestrate containers
+
+## Development
+Install Dependencies
+```bash
+go tidy
+```
+
+To run the backend in development mode with file watching run:
+```bash
+CompileDaemon -command="./urlshortener"
+```
