@@ -20,7 +20,7 @@ type response struct {
 	CustomShort    string        `json:"short"`
 	Expiry         time.Duration `json:"expiry"`
 	XRateRemaining int           `json:"rate_limit"`
-	RateLimitRest  int           `json:"rate_limit_reset`
+	RateLimitRest  int           `json:"rate_limit_reset"`
 }
 
 func ShortenUrl(c echo.Context) error {
