@@ -22,7 +22,7 @@ func main() {
 
 	e := echo.New()
   e.GET("/:url", routes.ResolveURL)
-	e.POST("/:url", routes.ShortenUrl)
+	e.POST("/", routes.ShortenUrl)
 
 	e.Logger.Fatal(e.Start(":" + port))
 }
