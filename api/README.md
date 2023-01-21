@@ -14,7 +14,7 @@ An applicacion that generates randome short URLS based on longer ones.
 ## Development
 Install Dependencies
 ```bash
-go tidy
+go mod tidy
 ```
 
 To run the backend in development mode with file watching run:
